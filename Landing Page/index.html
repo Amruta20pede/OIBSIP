@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alphonso</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+    
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="logo-image">
+                <img src="images\logo.png" alt="Alphonso Logo">
+            </div>  
+        </nav>
+
+        <div class="main-content">
+            <div class="image-slider">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="images\alphonso-mango-stock-image-1-1024x686-2.jpg" alt="Slide 1"></div>
+                        <div class="swiper-slide"><img src="images\mango-slice(2).jpg " alt="Slide 2"></div>
+                    </div> 
+                </div>
+            </div>
+            <div class="main-text">
+                <h1>Welcome to Alphonso World</h1>
+                <p>Discover the exquisite taste of Alphanzo Mangoes, known for their sweetness and aroma.
+
+                    Explore our wide range of products and learn more about our commitment to quality.
+                    
+                </p>
+    
+
+                <button>Order Now</button>
+
+            </div>
+           
+    
+        </div>
+
+        <div class="right">
+            
+                
+            <div class="box">
+                <div class="image">
+                    <img src="images\img4.png" alt="The Impeccable Aroma">
+                </div>
+                <div class="inner-box">
+                    <h3>The Impeccable Aroma </h3>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images\img5.png" alt="Carbide & Chemical Free">
+                </div>
+                <div class="inner-box">
+                    <h3>Carbide & Chemical Free</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images\img6.png" alt="Low Moisture Content & Fiber">
+                </div>
+                <div class="inner-box">
+                    <h3>Low Moisture Content & Fiber</h3>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="far fa-envelope"></i></a>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+        });
+    </script>
+</body>
+
+</html>
